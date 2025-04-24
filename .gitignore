@@ -1,0 +1,93 @@
+out
+dist
+node_modules
+.vscode-test/
+*.vsix
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# VS Code extension development
+node_modules/
+out/
+.webpack/
+
+# TypeScript
+*.js
+*.js.map
+!webpack.config.js
+tsconfig.tsbuildinfo
+
+# VS Code specific
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+config.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Flask stuff
+instance/
+.webassets-cache
+flask_session/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# API keys and secrets
+*.pem
+
+# Local development configuration
+local_settings.py
